@@ -151,6 +151,10 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .map-holder { border: 1px solid #d5dbe0; padding: 6px; background-color: #fafafa; }
 .google-map-canvas { height: 400px; }
+  #map {
+        height: 400px;
+        width: 100%;
+       }
 
 .contact-form { margin-top: 60px; }
 .contact-form input, .contact-form textarea { width: 100%; display: block; border: 1px solid #d5dbe0; padding: 10px 15px; outline: 0; }

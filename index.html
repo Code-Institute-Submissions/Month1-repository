@@ -378,7 +378,7 @@
 				</div> <!-- /.row -->
 				<div class="row">
 					<div class="col-md-12">
-						<div class="map-holder">
+						<div class="map-holder" id="map">
 							<div class="google-map-canvas" id="map-canvas">
                     		</div>
 						</div> <!-- /.map-holder -->
@@ -456,9 +456,9 @@
 	<script src="js/custom.js"></script>
 	<script>
 		function initMap() {
-        var uluru = {lat: 52.6784472,lng: -8.6432239};
+        var uluru = {lat: 52.678663,lng: -8.638441};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+          zoom: 16,
           center: uluru
         });
         var marker = new google.maps.Marker({
@@ -467,8 +467,11 @@
         });
       }
     </script>
-    <script async defer
-        src="https://www.google.ie/maps/place/Watch+House+Cross,+Limerick/@52.6784472,-8.6432239,16z/data=!3m1!4b1!4m5!3m4!1s0x485b5c5792261093:0x2600c7a7babb2e82!8m2!3d52.6784478!4d-8.6388465">
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG7Mk47pCGPeqBUVYc2ApCe4WtusnLwCc&callback=initMap">
     </script>
 </body>
 </html>
+
+
+
