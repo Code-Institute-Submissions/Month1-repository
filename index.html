@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1">
     
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bbs_misc.css">
@@ -455,29 +455,20 @@
 	<script src="js/jquery.icons.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
-		$(document).ready(function(){
-			$("a[data-gal^='icons']").icons({hook: 'data-gal'});
-		});
-
-        function initialize() {
-          var mapOptions = {
-            zoom: 13,
-            center: new google.maps.LatLng(52.6784469, -8.6476013)
-          };
-
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-        }
-
-        function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-              'callback=initialize';
-          document.body.appendChild(script);
-        }
-
-        window.onload = loadScript;
+		function initMap() {
+        var uluru = {lat: 52.6784472,lng: -8.6432239};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+        src="https://www.google.ie/maps/place/Watch+House+Cross,+Limerick/@52.6784472,-8.6432239,16z/data=!3m1!4b1!4m5!3m4!1s0x485b5c5792261093:0x2600c7a7babb2e82!8m2!3d52.6784478!4d-8.6388465">
     </script>
 </body>
 </html>
