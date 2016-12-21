@@ -26,6 +26,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', Arial, Helvetice Neue, sans-s
 #portfolio .section-title { border-color: #1dcb7c; }
 #portfolio h2 { background-color: #38e395; }
 
+#portfolio1 .section-title { border-color: #7c1fe5; }
+#portfolio1 h2 { background-color: #974dea; }
+
 #contact .section-title { border-color: #cb1d62; }
 #contact h2 { background-color: #e3387c; }
 
