@@ -20,7 +20,6 @@ This allows my brother to have have a web presence other than on social media, i
 and also show case his work through the portfolio section of the site
 
 Issues/Obstacles
-The main issues i found with this site was taking a template i got for free on wix and making it bend to what i wanted it to do and look
-like the main issues where with bootstrap and css, being my very first attempt to do this I also had issues with the carousel and adding
-hover over links to my brothers facbook site and Linkedin site on his profile picture in the About Section.
-Also getting the Google map working for the first time was challenging
+
+The main issues i found with this site was taking a template i got for free on wix and making it bend to what i wanted it to do, making it responsive to all screen types and changing it to look like i wanted it to. The main issues where with bootstrap and css, being my very first attempt to do this I also had issues with the carousel and adding hover over which links to my brothers facbook site and Linkedin site on his profile picture in the About Section. 
+Also adding links on the carosuel and getting the Google map working for the first time was challenging
